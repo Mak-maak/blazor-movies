@@ -1,0 +1,15 @@
+﻿@page "/person/create"
+
+<h3>Create Person</h3>
+
+<PeopleForm Person="Person" OnValidSubmit="Create" />
+
+@code {
+    private PersonModel Person = new PersonModel();
+
+    private void Create()
+    {
+        Console.WriteLine("Create Method");
+        Console.WriteLine(Person.Name);
+    }
+}

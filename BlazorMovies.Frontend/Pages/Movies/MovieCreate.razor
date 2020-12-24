@@ -1,0 +1,21 @@
+﻿@page "/movies/create"
+
+<h3>Movie Create</h3>
+
+<MovieForm Movie="Movie" OnValidSubmit="SaveMovie" NotSelectedGenres="NotSelectedGenres" />
+
+@code {
+    private MovieModel Movie = new MovieModel();
+
+    private List<GenreModel> NotSelectedGenres = new List<GenreModel>()
+{
+        new GenreModel() { ID = 1, Name = "Action" },
+        new GenreModel() { ID = 2, Name = "Comedy" },
+        new GenreModel() { ID = 3, Name = "Drama" }
+    };
+
+    private void SaveMovie()
+    {
+        Console.WriteLine("Save Movie Method");
+    }
+}

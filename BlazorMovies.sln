@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMovies.Frontend", "BlazorMovies.Frontend\BlazorMovies.Frontend.csproj", "{6B2DE741-EB57-483C-AE48-1EA3685BACAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMovie.Entities", "BlazorMovie.Entities\BlazorMovie.Entities.csproj", "{AB1B3E4E-BA6C-4E89-B2BD-09EC50DA06D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B2DE741-EB57-483C-AE48-1EA3685BACAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B2DE741-EB57-483C-AE48-1EA3685BACAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B2DE741-EB57-483C-AE48-1EA3685BACAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B2DE741-EB57-483C-AE48-1EA3685BACAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1B3E4E-BA6C-4E89-B2BD-09EC50DA06D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1B3E4E-BA6C-4E89-B2BD-09EC50DA06D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1B3E4E-BA6C-4E89-B2BD-09EC50DA06D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1B3E4E-BA6C-4E89-B2BD-09EC50DA06D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01A4B8A8-2271-4B3F-A313-761EF38A4C39}
+	EndGlobalSection
+EndGlobal
